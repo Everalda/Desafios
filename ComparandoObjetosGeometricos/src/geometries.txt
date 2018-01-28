@@ -1,0 +1,4 @@
+circle 3
+rectangle 2 2
+square 3
+triangle 1 2 3
