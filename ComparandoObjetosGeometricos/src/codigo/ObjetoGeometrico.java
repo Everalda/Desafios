@@ -1,5 +1,5 @@
 package codigo;
 
-public abstract class ObjetoGeometrico {
+public interface ObjetoGeometrico {
 	public abstract double getArea();
 }

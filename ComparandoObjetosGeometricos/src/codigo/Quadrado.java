@@ -1,6 +1,6 @@
 package codigo;
 
-public class Quadrado extends ObjetoGeometrico {
+public class Quadrado implements ObjetoGeometrico {
 	private double lado;
 
 	public Quadrado() {
@@ -19,7 +19,6 @@ public class Quadrado extends ObjetoGeometrico {
 		lado = newLado;
 	}
 
-	@Override
 	public double getArea() {
 		return lado * lado;
 	}

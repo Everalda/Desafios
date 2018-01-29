@@ -1,6 +1,6 @@
 package codigo;
 
-public class Triangulo extends ObjetoGeometrico {
+public class Triangulo implements ObjetoGeometrico {
 	private double ladoA;
 	private double ladoB;
 	private double ladoC;
@@ -45,7 +45,7 @@ public class Triangulo extends ObjetoGeometrico {
 
 	double p = getPerimetro(ladoA, ladoB, ladoC);
 
-	@Override
+	
 	public double getArea() {
 
 		return Math.sqrt(p * (p - ladoA) * (p - ladoB) * (p - ladoC));

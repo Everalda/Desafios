@@ -1,6 +1,6 @@
 package codigo;
 
-public class Retangulo extends ObjetoGeometrico {
+public class Retangulo implements ObjetoGeometrico {
 	private double comprimento;
 	private double altura;
 
@@ -29,7 +29,6 @@ public class Retangulo extends ObjetoGeometrico {
 		comprimento = newComprimento;
 	}
 
-	@Override
 	public double getArea() {
 
 		return comprimento * altura;

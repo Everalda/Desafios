@@ -1,6 +1,6 @@
 package codigo;
 
-public class Circulo extends ObjetoGeometrico {
+public class Circulo implements ObjetoGeometrico {
 	private double raio;
 	final double PI=3.1415;
 
